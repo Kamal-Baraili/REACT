@@ -5,7 +5,9 @@ import ClassComp from "./components/Greeting";
 function App() {
   return (
     <div className="App">
-      <MyComp />
+      <MyComp name="Kamal" />
+      <MyComp name="John" />
+      <MyComp name="Mark" />
       <ClassComp />
     </div>
   );
